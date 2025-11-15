@@ -29,11 +29,24 @@ Try it online: [React Todo App Demo](https://sangardev.github.io/react-todo-app/
 
 ## How to Run Locally in VS Code
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) installed  
-- VS Code installed
+Open project in VS Code
 
-### Steps
-1. **Clone the repository**
+Go to File → Open Folder and select the project folder.
+
+Open Terminal in VS Code
+
+Go to View → Terminal or press Ctrl + `.
+
+Install dependencies
+
+npm install
+Start the development server
+
+npm run dev
+Open in browser
+
+Use the local URL provided in the terminal, usually: http://localhost:5173/
+
+
    ```bash
    git clone https://github.com/SangarDev/react-todo-app.git
