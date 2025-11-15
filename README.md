@@ -45,7 +45,6 @@ Start the development server
 npm run dev
 Open in browser
 
-Use the local URL provided in the terminal, usually: http://localhost:5173/
 
 
    ```bash
