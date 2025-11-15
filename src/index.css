@@ -1,0 +1,113 @@
+/* 🌈 Global Theme */
+:root {
+  --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --primary: #667eea;
+  --primary-hover: #5a67d8;
+  --danger: #ff4d4f;
+  --danger-hover: #d9363e;
+  --card-bg: #fff;
+  --text: #333;
+  --radius: 10px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🖼️ App Background */
+body {
+  margin: 0;
+  background: var(--gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* 🧾 Main Card */
+.todo-container {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--radius);
+  width: 380px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+/* ✏️ Input and Buttons */
+.input-section {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.6rem;
+  width: 70%;
+  border: 2px solid var(--primary);
+  border-radius: var(--radius);
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: var(--primary-hover);
+  box-shadow: 0 0 6px rgba(102, 126, 234, 0.4);
+}
+
+button {
+  padding: 0.6rem 1rem;
+  margin-left: 10px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: var(--primary-hover);
+}
+
+/* ✅ Task List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f7f8ff;
+  margin: 0.5rem 0;
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+.delete-btn {
+  background: var(--danger);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  
+}
+
+.delete-btn:hover {
+  background: var(--danger-hover);
+}
+
+/* 💬 Footer */
+.footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #777;
+}
