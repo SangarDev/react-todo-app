@@ -46,6 +46,3 @@ npm run dev
 Open in browser
 
 
-
-   ```bash
-   git clone https://github.com/SangarDev/react-todo-app.git
